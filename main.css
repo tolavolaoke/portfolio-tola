@@ -1,0 +1,197 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans",sans-serif; 
+    font-size: 20px;
+   
+}
+.name{
+    margin: 0 40px;
+    letter-spacing: 1px;
+    color:rgba(30, 22, 54, 0.6);
+    font-weight: 400;
+    font-size: 70px;
+}
+.jobTitle{
+    font-weight: 200;
+    margin: 0 50px;
+    letter-spacing: 10px;
+    font-size: 100%;
+    color: #2c9ab7;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("joshua-sortino-228788.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav{
+    bottom: 0;
+    top: 730px;
+    position: absolute;
+}
+
+/* Buttons */
+.buttons ul {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: inline-block;
+    margin: 10;
+    text-align: center;
+    list-style: none;
+}
+
+.buttons .workBtn {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    left: 7%;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    /* border-radius: 4px; */
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.buttons .workBtn:hover{
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+.buttons .meBtn {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    left: 7%;
+    background: transparent;
+    font-size:large;
+    cursor: pointer;
+    text-decoration: none;
+    /* border-radius: 4px; */
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.buttons .meBtn:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+.buttons .contactBtn {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    left: 7%;
+    background: transparent;
+    font-size:large;
+    cursor: pointer;
+    text-decoration: none;
+    /* border-radius: 4px; */
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.buttons .contactBtn:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+
+/* MAIN.HTML */
+
+.container{
+    width: 1160px;
+    height: 600px;
+}    
+.about{
+    width: 200px;
+    padding: 20px 0px 0px 80px;
+    float: left;
+}
+
+p{
+    margin: 0;
+}
+
+.main {
+    height: 300px;
+    display: grid; 
+}
+
+.mainGrid{
+    /* width: 835px; */
+    float: right;
+    padding: 20px 0px 0px 45px;
+    /* overflow: hidden; */
+    /* display:block; */
+}
+
+.mainGrid img {
+    width: 30%;
+    /* height: 25%; */
+    /* display: block; */
+    /* padding: 20px 0px 0px 45px; */
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.mainGrid:hover img:not(:hover) {
+    opacity: 0.3;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+  }
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
