@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: "Open Sans",sans-serif; 
     font-size: 20px;
+    display: block;
    
 }
 .name {
@@ -132,8 +133,6 @@ a:hover {
 
 }
 
-
-
 /* Buttons */
 .li2{
     display:inline;
@@ -204,7 +203,7 @@ a:hover {
     /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset; */
 } 
 
-.buttons2 .contactBtns2:hover {
+.buttons2 .contactBtn2:hover {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
@@ -220,7 +219,7 @@ a:hover {
 }
 
 
-p{
+p {
     margin: 0;
     color: rgba(30, 22, 54, 0.6);
 }
@@ -241,7 +240,7 @@ p{
 }
 
 .mainGrid img {
-    width: 30%;
+    width: 25%;
     /* height: 25%; */
     /* display: block; */
     /* padding: 20px 0px 0px 45px; */
