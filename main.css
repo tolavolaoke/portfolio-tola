@@ -216,12 +216,15 @@ a:hover {
     width: 250px;
     padding: 20px 0px 0px 80px;
     float: left;
+    font-size: 18px; 
+    /* background: red; */
 }
 
 
 p {
     margin: 0;
     color: rgba(30, 22, 54, 0.6);
+
 }
 
 .main {
@@ -231,7 +234,7 @@ p {
 }
 
 .mainGrid{
-    /* width: 835px; */
+    width: 835px;
     float: right;
     padding: 20px 0px 0px 45px;
     position: fixed;
@@ -243,7 +246,7 @@ p {
     width: 25%;
     /* height: 25%; */
     /* display: block; */
-    /* padding: 20px 0px 0px 45px; */
+    padding: 10px 0px 0px 10px;
 }
 
 img:hover{
@@ -281,6 +284,7 @@ img:hover{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    height: 80%;
 }
 
 /* The Close Button */
