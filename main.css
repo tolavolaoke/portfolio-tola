@@ -1,5 +1,6 @@
+/*--------------------RESPONSIVE FOR DESKTOP ---------------------*/    
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body, html {
@@ -8,15 +9,18 @@ body, html {
     font-family: "Open Sans",sans-serif; 
     font-size: 20px;
     display: block;
-   
+ 
 }
+
 .name {
     margin: 0 40px;
     letter-spacing: 1px;
     color:rgba(30, 22, 54, 0.6);
+
     font-weight: 400;
     font-size: 70px;
 }
+
 .jobTitle {
     font-weight: 200;
     /* margin: 0 50px; */
@@ -28,6 +32,7 @@ body, html {
 .bg {
     /* The image used */
     background-image: url("../portfolio-tola/images/joshuasortino-228788.jpg");
+    width: 50%;
 
     /* Full height */
     height: 100%; 
@@ -132,7 +137,7 @@ a:hover {
 #nav2{
     bottom: 0;
     top: 0;
-    left:870px;
+    left: 1200px;
     position: absolute;
     display:inline;
     padding: 20px;
@@ -217,11 +222,10 @@ a:hover {
     height: 600px;
 }    
 .about{
-    width: 250px;
+    width: 350px;
     padding: 20px 0px 0px 80px;
     float: left;
-    font-size: 14px; 
-    /* background: red; */
+    font-size: 18px; 
 }
 
 
@@ -238,7 +242,7 @@ p {
 }
 
 .mainGrid{
-    width: 950px;
+    width: 1200px;
     float: right;
     padding: 20px 0px 0px 45px;
     /* position: fixed; */
@@ -290,6 +294,10 @@ img:hover{
     width: 80%;
     height: 80%;
 }
+.p_image{
+    width: 20%;
+}
+
 
 /* The Close Button */
 .close {
@@ -306,42 +314,16 @@ img:hover{
     cursor: pointer;
 }
 
-  /* ---------------Content in Modal ------------------------*/
 
-  .p_image{
-      width: 20%;
-  }
-  /* ---------------Image Grid in Modal ------------------------*/
+/*--------------------RESPONSIVE FOR TABLET ---------------------*/
 
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-}
-
-.column img {
-    margin-top: 12px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-    .column {
-        width: 50%;
+@media screen and (max-width: 768px){
+    
     }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 
+
+/*--------------------RESPONSIVE FOR MOBILE ---------------------*/
+
+@media screen and (max-width: 480px){
+}
