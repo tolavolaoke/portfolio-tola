@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body, html {
@@ -306,8 +306,11 @@ img:hover{
     cursor: pointer;
 }
 
+  /* ---------------Content in Modal ------------------------*/
 
-
+  .p_image{
+      width: 20%;
+  }
   /* ---------------Image Grid in Modal ------------------------*/
 
 /* Create four equal columns that floats next to each other */
