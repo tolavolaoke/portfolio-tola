@@ -43,12 +43,6 @@ body, html {
     background-size: cover;
 }
 
-#nav {
-    /* bottom: 0;
-    top: 700px;
-    position: absolute; */
-}
-
 a {
  text-decoration: none;
  color:  rgba(30, 22, 54, 0.7);
