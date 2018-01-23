@@ -85,19 +85,19 @@
       function addBorders() {
         switch (slideAccesser.currentSlideEdge) {
           case 0:
-            console.log('slide 0');
+            // console.log('slide 0');
             document.getElementById("border0").style.border = "3px solid black";
             document.getElementById("border1").style.border = "0";
             document.getElementById("border2").style.border = "0";
             break;
           case 1:
-            console.log('slide 1');
+            // console.log('slide 1');
             document.getElementById("border1").style.border = "3px solid black";
             document.getElementById("border0").style.border = "0";
             document.getElementById("border2").style.border = "0";
             break;
           case 2:
-            console.log('slide 2');
+            // console.log('slide 2');
             document.getElementById("border2").style.border = "3px solid black";
             document.getElementById("border1").style.border = "0";
             document.getElementById("border0").style.border = "0";
