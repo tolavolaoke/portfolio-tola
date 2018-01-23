@@ -3,7 +3,7 @@ window.onload = function(){
     // Get the modal
  var modal = document.getElementById('myModal');
  var box = document.getElementById('myModal2');
-
+var simply = document.getElementById('myModal6');
 
  // Get the button that opens the modal
  var btn = document.getElementById("myBtn");
@@ -37,7 +37,7 @@ window.onload = function(){
        }
 
        btn6.onclick = function() {
-        modal.style.display = "block";
+        simply.style.display = "block";
        }
 
        btn7.onclick = function() {
@@ -49,16 +49,15 @@ window.onload = function(){
        }
 
  // Get the <span> element that closes the modal
- var span = document.getElementsByClassName("close")[0];
+ var span = document.getElementsByClassName("close");
 
  // When the user clicks on <span> (x), close the modal
- span.onclick = function() {
-     modal.style.display = "none";
+ for(var each in span){
+    span[each].onclick = function() {
+        var parentModal = this.parentElement.parentElement;
+        parentModal.style.display = "none";
+     }
  }
-
-//  span.onclick = function() {
-//     box.style.display = "none";
-// }
  
  // When the user clicks anywhere outside of the modal, close it
  window.onclick = function(event) {

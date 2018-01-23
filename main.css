@@ -126,7 +126,6 @@ a:hover {
 }
 
 
-
 /* ------------------Work.HTML ---------------------------------------*/
 #nav2{
     bottom: 0;
@@ -292,6 +291,13 @@ img:hover{
     width: 20%;
 }
 
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
 
 /* The Close Button */
 .close {
