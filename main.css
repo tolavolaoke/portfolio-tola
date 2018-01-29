@@ -16,7 +16,6 @@ body, html {
     margin: 0 40px;
     letter-spacing: 1px;
     color:rgba(30, 22, 54, 0.6);
-
     font-weight: 400;
     font-size: 70px;
 }
@@ -52,94 +51,25 @@ a:hover {
     color:  rgba(255, 255, 255, 0.85);
 }
 
-/* Buttons */
-.li {
-    display:inline;
-    padding: 20px;
-}
-.buttons ul {
-    width: 100%;
-    /* height: 100%; */
-    position: fixed;
-    /* display: inline; */
-    margin: 50 10;
-    /* text-align: center; */
-    list-style: none;
-    font-size: 14px;
-}
 
-.buttons .workBtn {
-    width: 10%;
-    padding: 10 0;
-    /* padding: 10px;
-    margin: 10px;
-    left: 7%;
-    background: transparent;
-    font-size:large;
-    cursor: pointer;
-    text-decoration: none; */
-    color: rgba(30, 22, 54, 0.6); 
-    /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;  */
-}
-
-.buttons .workBtn:hover{
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-}
-
-.buttons .meBtn {
-    width: 10%;
-    padding: 10 0;
-    /* padding: 10px;
-    margin: 10px;
-    left: 7%;
-    background: transparent;
-    font-size:large;
-    cursor: pointer;
-    text-decoration: none; */
-    color: rgba(30, 22, 54, 0.6);
-    /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;  */
-}
-
-.buttons .meBtn:hover {
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-}
-
-.buttons .contactBtn {
-    width: 10%;
-    padding: 10 0;
-    /* padding: 10px;
-    margin: 10px;
-    left: 7%;
-    background: transparent;
-    font-size:large;
-    cursor: pointer;
-    text-decoration: none; */
-    color: rgba(30, 22, 54, 0.6);
-    /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset; */
-} 
-
-.buttons .contactBtn:hover {
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-}
-
-
-/* ------------------Work.HTML ---------------------------------------*/
-#nav2{
+#nav{
     bottom: 0;
     top: 0;
     left: 1200px;
     position: absolute;
     display:inline;
     padding: 20px;
+    text-transform: uppercase;
 
 }
 
 /* Buttons */
+.li {
+    display:inline;
+    padding: 20px;
+}
 
-.buttons2 ul {
+.navbar {
     width: 100%;
     /* height: 100%; */
     position: fixed;
@@ -150,7 +80,7 @@ a:hover {
     font-size: 14px;
 }
 
-.buttons2 .workBtn2 {
+.workBtn {
     width: 10%;
     display: inline;
     padding: 10 10;
@@ -165,12 +95,12 @@ a:hover {
     /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;  */
 }
 
-.buttons2 .workBtn2:hover{
+.workBtn:hover{
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
-.buttons2 .meBtn2 {
+.meBtn {
     width: 10%;
     display: inline;
     padding: 10 10;
@@ -185,12 +115,12 @@ a:hover {
     /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;  */
 }
 
-.buttons2 .meBtn2:hover {
+.meBtn:hover {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
-.buttons2 .contactBtn2 {
+.contactBtn {
     width: 10%;
     display: inline;
     padding: 10 10;
@@ -205,7 +135,7 @@ a:hover {
     /* box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset; */
 } 
 
-.buttons2 .contactBtn2:hover {
+.contactBtn:hover {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
@@ -299,6 +229,13 @@ iframe[seamless] {
     display: block;
 }
 
+#menu li { 
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
 /* The Close Button */
 .close {
     color: #aaaaaa;
@@ -313,6 +250,7 @@ iframe[seamless] {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 
 /*--------------------RESPONSIVE FOR TABLET ---------------------*/
