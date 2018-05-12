@@ -169,9 +169,11 @@ p {
     /* border: 1px solid #888; */
     width: 80%;
     height: 80%;
+    
 }
 .modal-text{
     padding-left: 600px;
+    display: inline-flex;
 }
 .p_image{
     width: 45%;
@@ -205,6 +207,13 @@ iframe[seamless] {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.project-gallery img{
+    height: 15%;
+    display: inline-flex;
+    flex-direction: row;
+    margin:10px; 
 }
 
 footer{
