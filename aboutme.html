@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   outline: none;
+}
+
+body {
+   margin: 20px;
+   /* padding: 30px 0; */
+   padding: 70px;
+   font-family: 'Roboto', sans-serif;
+   background: #F1F2F6;
+}
+
+h1 {
+   text-align: center;
+   font-weight: 300;
+   color: #777
+}
+
+h1 span {
+   font-weight: 600;
+}
+
+.container {
+   width: 80%;
+   padding: 50px 0;
+   margin: 50px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.container:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 50%;
+   margin-left: -1px;
+   width: 2px;
+   height: 100%;
+   background: #CCD1D9;
+   z-index: 1
+}
+
+.timeline-block {
+   width: -webkit-calc(50% + 8px);
+   width: -moz-calc(50% + 8px);
+   width: calc(50% + 8px);
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: flex;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -moz-box-pack: justify;
+   justify-content: space-between;
+   clear: both;
+}
+
+.timeline-block-right {
+   float: right;
+}
+
+.timeline-block-left {
+   float: left;
+   direction: rtl
+}
+
+.marker {
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   border: 2px solid #F5F7FA;
+   background: #4FC1E9;
+   margin-top: 10px;
+   z-index: 9999
+}
+
+.timeline-content {
+   width: 95%;
+   padding: 0 15px;
+   color: #666
+}
+
+.timeline-content h3 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 25px;
+   font-weight: 500
+}
+
+.timeline-content span {
+   font-size: 15px;
+   color: #a4a4a4;
+}
+
+.timeline-content p {
+   font-size: 14px;
+   line-height: 1.5em;
+   word-spacing: 1px;
+   color: #888;
+}
+
+
+@media screen and (max-width: 768px) {
+   .container:before {
+      left: 8px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
+
+   .timeline-block-left {
+      float: none;
+      direction: ltr;
+   }
+}
+
+</style>
+<body>
+        <div class="header">	
+                <header class="clearfix">
+                            <h1>My name/logo goes here <span>and my Title goes here!</span></h1>	
+                        </header>
+            </div>   
+            
+    <div class"box1" style="width:50%; height: -webkit-fill-available; background-color:white; float:left; border: solid 2px black">
+            <h1>Experience <span>timeline</span></h1>
+            <p style="padding: 50px;"> Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit. 
+                Alias tempore, recusandae eaque at perspiciatis 
+                amet laudantium molestias deleniti! Repellat praesentium
+                 harum beatae ratione fugiat doloribus qui atque, architecto animi cum?</p>
+    </div>
+
+    <div class"box2" style="width:50%; height:50%; float:right; border: solid 2px black">
+    <h1>Experience <span>timeline</span></h1>
+    
+    <div class="container">
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>BSc Computer Science</h3>
+             <span>2012</span>
+             <p>Highlights of what I learnt, List Modules or Skills</p>
+          </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>MSc Digital Service Design</h3>
+             <span>2016</span>
+             <p> Highlights of what I learnt, List Modules or Skills</p>
+          </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Code First Girls Course</h3>
+             <span>2017</span>
+             <p> Highlights of what I learnt, List Modules or Skills</p>
+          </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Code First Girls Assistant Instructor</h3>
+             <span>2018</span>
+             <p> Highlights of what I learnt, List Modules or Skills</p>         
+            </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Web Development Intensive course</h3>
+             <span>2018 </span>
+             <p> Highlights of what I learnt, List Modules or Skills</p>          
+            </div>
+       </div>
+       <div class="timeline-block timeline-block-left">
+            <div class="marker"></div>
+            <div class="timeline-content">
+               <h3>UX Masterclass</h3>
+               <span>2018</span>
+               <p> Highlights of what I learnt, List Modules or Skills</p>         
+              </div>
+         </div>
+         <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                   <h3>Front End Developer</h3>
+                   <span>2018</span>
+                   <p> Highlights of what I learnt, List Modules or Skills</p>         
+                  </div>
+             </div>
+    </div>
+</div>
+
+  
+</body>
+</html>
+
+

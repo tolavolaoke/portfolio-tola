@@ -65,6 +65,8 @@ var simply = document.getElementById('myModal6');
          modal.style.display = "none";
      }
  }  
+
+
  };
 
 

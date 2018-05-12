@@ -1,0 +1,25 @@
+#nav{
+    bottom: 0;
+    top: 0;
+}
+.navbar { 
+    width: 100%;
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex; // establish flex container 
+    flex-direction: row; // make main axis horizontal
+    justify-content: center; // center items vertically, in this case 
+    text-align: center;
+    padding: 10px;
+} 
+
+.workBtn, .aboutBtn, .homeBtn {
+    width: 10%;
+    color: rgba(30, 22, 54, 0.6); 
+}
+
+.workBtn:hover, .aboutBtn:hover, .homeBtn:hover{
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}

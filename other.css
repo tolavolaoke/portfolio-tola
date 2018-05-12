@@ -1,10 +1,12 @@
+/*---------------------------------------------RESPONSIVE FOR MOBILE ---------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------- */
+
 
 body, html {
     height: 100%;
     margin: 0;
-    /* font-family: "Open Sans",sans-serif;  */
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-family: "Roboto"; 
+    font-size: 20px;
     display: block;
 }
 #home{
@@ -18,10 +20,39 @@ body, html {
     align-items: center; /* center items horizontally, in this case */
     justify-content: center; /* center items vertically, in this case */
 }
+.name {
+    margin: 0 40px;
+    letter-spacing: 1px;
+    color:rgba(30, 22, 54, 0.6);
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.jobTitle {
+    font-weight: 200;
+    /* margin: 0 50px; */
+    letter-spacing: 10px;
+    font-size: 100%;
+    color: #2c9ab7;
+}
+
+/* .bg { */
+    /* The image used */
+    /* background-image: url("../portfolio-tola/images/joshuasortino-228788.jpg");
+    width: 50%; */
+
+    /* Full height */
+    /* height: 100%;  */
+
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 a {
-    text-decoration: none;
-    color:  rgba(30, 22, 54, 0.7);
+ text-decoration: none;
+ color:  rgba(30, 22, 54, 0.7);
 }
 
 a:hover {
@@ -32,39 +63,43 @@ a:hover {
 #nav{
     bottom: 0;
     top: 0;
+    left: 1200px;
+    position: absolute;
+    display:inline;
+    padding: 20px;
+    text-transform: uppercase;
+
 }
 
 /* Buttons */
-/* .li {
+.li {
     display:inline;
     padding: 20px;
-} */
+}
 
-.navbar { 
+.navbar {
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
     list-style: none;
     font-size: 14px;
-    text-transform: uppercase;
-    display: flex; /* establish flex container */
-    flex-direction: row; /* make main axis horizontal */
-    justify-content: center; /* center items vertically, in this case */
-    text-align: center;
-    padding: 10px;
-} 
+}
 
-.workBtn, .aboutBtn, .homeBtn {
+.workBtn {
     width: 10%;
+    display: inline;
+    padding: 10 10;
     color: rgba(30, 22, 54, 0.6); 
 }
 
-.workBtn:hover, .aboutBtn:hover, .homeBtn:hover{
+.workBtn:hover{
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
-/* .aboutBtn {
+.aboutBtn {
     width: 10%;
+    display: inline;
+    padding: 10 10;
     color: rgba(30, 22, 54, 0.6);
 }
 
@@ -73,18 +108,20 @@ a:hover {
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
-.homeBtn {
+.contactBtn {
     width: 10%;
+    display: inline;
+    padding: 10 10;
     color: rgba(30, 22, 54, 0.6);
 } 
 
-.homeBtn:hover {
+.contactBtn:hover {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-} */
+}
 
 .container{
-    width: 100%;
+    width: 1160px;
     height: 600px;
 }    
 .about{
@@ -94,43 +131,34 @@ a:hover {
     font-size: 15px; 
 }
 
-.grey{
-    color: lightslategray;
-}
-
 .social-icons img{
     display: inline-flex;
     height: 7%;
     padding: 2px;
     margin-top: 25px;
-    cursor: pointer;
   }
 
 p {
     margin: 0;
     color: rgba(30, 22, 54, 0.6);
+
 }
 
 .main {
     height: 300px;
     display: grid; 
-    /* margin: 100 0; */
+    margin: 100 0;
 }
 
 .mainGrid{
-    width: 100%;
+    width: 1200px;
     float: right;
     padding: 20px 0px 0px 45px;
 }
 
 .mainGrid img {
-    /* width: 23%; */
-    /* padding: 10px 0px 0px 10px; */
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    border-radius: 1%;
+    width: 23%;
+    padding: 10px 0px 0px 10px;
 }
 
 .mainGrid img:hover{
@@ -196,7 +224,7 @@ iframe[seamless] {
 .close {
     color: #aaaaaa;
     float: right;
-    font-size: 14px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -209,19 +237,5 @@ iframe[seamless] {
 
 footer{
     text-align: center;
-    background-color: lightslategray;
-    position: fixed;
-    width: 100%;
-    bottom: 0px
+    background-color: #dad4d4;
 }
-
-@media screen and (min-width: 400px){
-    
-}
-
-
-
-
-
-
-    
