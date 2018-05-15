@@ -209,8 +209,8 @@ iframe[seamless] {
     cursor: pointer;
 }
 
-.project-gallery img{
-    height: 15%;
+.modal-gallery {
+    height:100px;
     display: inline-flex;
     flex-direction: row;
     margin:10px; 

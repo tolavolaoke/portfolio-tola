@@ -69,5 +69,3 @@ var simply = document.getElementById('myModal6');
 
  };
 
-
-
