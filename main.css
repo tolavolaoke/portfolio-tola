@@ -2,7 +2,6 @@
 body, html {
     height: 100%;
     margin: 0;
-    /* font-family: "Open Sans",sans-serif;  */
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     display: block;
@@ -24,6 +23,10 @@ a {
     color:  rgba(30, 22, 54, 0.7);
 }
 
+li{
+    text-decoration: none;
+    color:  rgba(30, 22, 54, 0.7);
+}
 a:hover {
     color:  rgba(255, 255, 255, 0.85);
 }
@@ -42,7 +45,6 @@ a:hover {
 
 .navbar { 
     width: 100%;
-    /* position: fixed; */
     list-style: none;
     font-size: 14px;
     text-transform: uppercase;
@@ -51,37 +53,20 @@ a:hover {
     justify-content: center; /* center items vertically, in this case */
     text-align: center;
     padding: 10px;
+    position: fixed;
+    background: white;
+    bottom: 915;
 } 
 
-.workBtn, .aboutBtn, .homeBtn {
+.projectsBtn, .aboutBtn, .homeBtn {
     width: 10%;
     color: rgba(30, 22, 54, 0.6); 
 }
 
-.workBtn:hover, .aboutBtn:hover, .homeBtn:hover{
+.projectsBtn:hover, .aboutBtn:hover, .homeBtn:hover{
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
-
-/* .aboutBtn {
-    width: 10%;
-    color: rgba(30, 22, 54, 0.6);
-}
-
-.aboutBtn:hover {
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-}
-
-.homeBtn {
-    width: 10%;
-    color: rgba(30, 22, 54, 0.6);
-} 
-
-.homeBtn:hover {
-    color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
-} */
 
 .container{
     width: 100%;
@@ -94,10 +79,6 @@ a:hover {
     font-size: 15px; 
 }
 
-.grey{
-    color: lightslategray;
-}
-
 .social-icons img{
     display: inline-flex;
     height: 7%;
@@ -105,7 +86,10 @@ a:hover {
     margin-top: 25px;
     cursor: pointer;
   }
-
+h3{
+    margin: 0;
+    color: rgba(30, 22, 54, 0.6);
+}
 p {
     margin: 0;
     color: rgba(30, 22, 54, 0.6);
@@ -126,8 +110,8 @@ p {
 .mainGrid img {
     /* width: 23%; */
     /* padding: 10px 0px 0px 10px; */
-    width: 200px;
-    height: 150px;
+    width: 50%;
+    /* height: 150px; */
     margin: 10px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     border-radius: 1%;
@@ -189,7 +173,7 @@ iframe[seamless] {
 
 #menu li { 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 15vw;
 
 }
 

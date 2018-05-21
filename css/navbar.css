@@ -20,11 +20,11 @@
   text-align: center;
   padding: 10px; }
 
-.workBtn, .aboutBtn, .homeBtn {
+.projectsBtn, .aboutBtn, .homeBtn {
   width: 10%;
   color: rgba(30, 22, 54, 0.6); }
 
-.workBtn:hover, .aboutBtn:hover, .homeBtn:hover {
+.projectsBtn:hover, .aboutBtn:hover, .homeBtn:hover {
   color: rgba(255, 255, 255, 0.85);
   -webkit-box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
   box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset; }
