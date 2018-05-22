@@ -55,7 +55,8 @@ a:hover {
     padding: 10px;
     position: fixed;
     background: white;
-    bottom: 915;
+    bottom: 800;
+    justify-content: space-around;
 } 
 
 .projectsBtn, .aboutBtn, .homeBtn {
