@@ -5,7 +5,7 @@
       /****************************Change the slide *************************************/
       var slideContainerJquery = $(".SlideShow");
       var slideContainerJqueryWrapper = $(".SlideShowContainer");
-      console.log(slideContainerJqueryWrapper);
+      // console.log(slideContainerJqueryWrapper);
       //slideAccesser is defined outside the stage for accessibilty to avoid globals
       slideAccesser = {
         edge_composition_ready: true,
@@ -177,7 +177,7 @@
         }
         slideAccesser.clickactive = false;
         var next = slideAccesser.previousSlide;
-        console.log(next);
+        // console.log(next);
         next++;
         SlidejQueryAnimater.slide(next, 'left');
         //tracking
@@ -242,13 +242,13 @@
       SlidejQueryAnimater.slide(3);
     };
     gwd.clickThrough = function(event) {
-      console.log(slideAccesser.currentSlideEdge);
+      // console.log(slideAccesser.currentSlideEdge);
       //tracking
       var slide = $(this),
         title = $(this).attr('id');
       switch (title) {
         case 'linkToSite':
-          console.log("it works!");
+          // console.log("it works!");
           slide.data('title', title);
           slide.data('link', clickTag);
           break;

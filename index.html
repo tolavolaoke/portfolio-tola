@@ -15,8 +15,12 @@
     <div id="nav">
       <div class="buttons">
         <ul class="navbar">
-          <li class="homeBtn"><a href="#top">Home</a></li>
-          <li class="projectsBtn"><a href="#projects">Projects</a></li>
+          <li class="homeBtn">
+            <a href="#top">Home</a>
+          </li>
+          <li class="projectsBtn">
+            <a href="#projects">Projects</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -32,7 +36,7 @@
 
   <!-- <div> -->
   <div class="container">
-    <div class="about">
+    <!-- <div class="about"> 
       <h2>I am a Frontend/UX designer and developer.</h2>
       <p>I enjoy working on projects and creatng web applications that are clean, appealing to the eye, functions well, useful
         to it's users and easy to navigate. I love using code and UX methodologies to find solutions to solve digital problems.
@@ -53,24 +57,27 @@
         <img src="../portfolio-tola/images/mediumlogo.png">
       </a>
       </div>
-    </div>
-  <!-- </div> -->
+    </div> -->
+    <!-- </div> -->
 
     <div class="main">
-      <a name="projects"></a> <!-- links to the projects part -->
+      <!-- container -->
+      <a name="projects"></a>
+      <!-- links to the projects part -->
       <div class="mainGrid">
-        <div><img src="../portfolio-tola/images/befitthumbnail.png" alt="" id="myBtn"></div>
-        <div><img src="../portfolio-tola/images/congathumbnail.png" alt="" id="myBtn2"></div>
-        <div><img src="../portfolio-tola/images/familyTree.png" alt="" id="myBtn3"></div>
-        <div><img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="" id="myBtn4"></div>
-        <div><img src="../portfolio-tola/images/game.png" alt="" id="myBtn5"></div>
-        <div><img src="../portfolio-tola/images/simplybe.png" alt="" id="myBtn6"></div>
-        <div><img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="" id="myBtn7"></div>
-        <div><img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="" id="myBtn8"></div>
+        <!-- sub container -->
+        <div class="thumbnail" id="myBtn">Web</div>
+        <div class="thumbnail" id="myBtn2">UX</div>
+        <!-- <div class="thumbnail"><img src="../portfolio-tola/images/familyTree.png" alt="" id="myBtn3"></div> -->
+        <div class="thumbnail" id="myBtn3">Web</div>
+        <!-- <div class="thumbnail"><img src="../portfolio-tola/images/game.png" alt="" id="myBtn5"></div> -->
+        <div class="thumbnail" id="myBtn4">Test</div>
+        <!-- <div class="thumbnail"><img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="" id="myBtn7"></div> -->
+        <!-- <div class="thumbnail"><img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="" id="myBtn8"></div> -->
       </div>
     </div>
   </div>
-  
+
 
   <!--Modal 1 -->
   <div id="myModal" class="modal">
@@ -78,7 +85,7 @@
     <!-- The Modal -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Be Fit</p>
+      <p>Web application: Be Fit</p>
 
       <!-- Header -->
       <div class="header">
@@ -102,40 +109,42 @@
     <div class="modal-content">
 
       <span class="close">&times;</span>
-      <p>A Social Mobile Application</p>
+      <!-- The close button-->
 
-      <div class="modal-image">
-        <img src="../portfolio-tola/images/Layer 2.png" class="p_image" alt="">
-      </div>
-
-      <div class="modal-gallery">
-        <img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="">
-        <img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="">
-        <img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="">
-        <img src="../portfolio-tola/images/ina-soulis-227094.jpg" alt="">
-      </div>
+      <!-- <div class="modal-image"> -->
+      <!-- <img src="../portfolio-tola/images/Layer 2.png" class="p_image" alt=""> -->
 
       <div class="modal-text">
+        <p>A Social Mobile Application: Conga</p>
         Created a social mobile app to Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus cupiditate dignissimos
         autem illo nemo explicabo impedit quidem, corporis iusto, nobis perspiciatis eos eum, minus atque nulla recusandae
         omnis nisi.
-        <!-- </div> -->
       </div>
+      <div class="modal-gallery">
+        <div class="big-modal-image"></div>
 
+        <div class="small-modal-image">
+            <img src="../portfolio-tola/images/Layer 2.png">
+            <img src="../portfolio-tola/images/ina-soulis-227094.jpg">
+            <img src="../portfolio-tola/images/ina-soulis-227094.jpg">
+            <img src="../portfolio-tola/images/ina-soulis-227094.jpg">
+          </div>
+        </div>
     </div>
+
+  </div>
   </div>
   <!-- </div> -->
 
 
 
-
-  <!-- Modal 6 -->
-  <div id="myModal6" class="modal">
+  <!-- Modal 3 -->
+  <div id="myModal3" class="modal">
     <!-- Modal content -->
     <!-- The Modal -->
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>This is the sixth modal!!!!</p>
+      <p>Simply Be!</p>
 
       <!-- Header -->
       <div class="header">
@@ -145,7 +154,29 @@
     </div>
   </div>
 
+
+  <!-- Modal 4 -->
+  <div id="myModal4" class="modal">
+    <!-- Modal content -->
+    <!-- The Modal -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is the fourth modal!!!!</p>
+
+      <!-- Header -->
+      <div class="header">
+        <div class="modal-text">
+          Created a social mobile app to Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis delectus cupiditate dignissimos
+          autem illo nemo explicabo impedit quidem, corporis iusto, nobis perspiciatis eos eum, minus atque nulla recusandae
+          omnis nisi.
+
+        </div>
+
+      </div>
+    </div>
   </div>
+
+  <!-- </div> -->
 
 
 
@@ -155,8 +186,8 @@
   <footer>
     <a href="#top">Back to the top</a>
     <p>2016 © Made by Tola</p>
-
   </footer>
+
 
 
 
