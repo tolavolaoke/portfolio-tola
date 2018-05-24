@@ -47,15 +47,11 @@ var d = document.getElementById('myModal4');
      }
  }  
 
-
+//Show expanded image when the non expanded image had been clicked
     document.getElementsByClassName("small-modal-image")[0].addEventListener('click', function (event) {
         console.log("it works!!!");
         document.getElementsByClassName("big-modal-image")[0].style.display = "block";
 });
-
-    
-
-
 
 
  };
