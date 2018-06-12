@@ -75,8 +75,8 @@ a:hover {
     height: 100%;
 }    
 .about{
-    width: 50%;
-    padding: 20px 0px 0px 80px;
+    width: 30%;
+    padding: 77px 0px 0px 400px;
     float: left;
     font-size: 15px; 
 }
@@ -108,9 +108,9 @@ p {
 }
 
 .mainGrid{
-    width: 100%;
-    float: right;
-    padding: 20px 0px 0px 45px;
+    /* width: 100%; */
+    float: right; 
+     padding: 20px 0px 0px 300px; 
 }
 
 .thumbnail{
